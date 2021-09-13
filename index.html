@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<!-- Refer to the link on the page for the Matter JS- https://cdnjs.com/libraries/matter-js -->
+<!-- For documentation on the Matter JS, refer to the page - https://brm.io/matter-js/docs/ -->
+
+<head>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.17.1/matter.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+        }
+
+        .hidden {
+            display: none !important;
+        }
+
+        h1 {
+            color: white;
+            font-size: 60px;
+        }
+
+        .winner {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            z-index: 1;
+            height: 100vh;
+            width: 100vw;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="winner hidden">
+        <h1> You win!</h1>
+    </div>
+    <script src="index-refactored.js"></script>
+</body>
+
+</html>
